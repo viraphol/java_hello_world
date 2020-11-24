@@ -1,2 +1,4 @@
-# java_hello_world
-Java hello-world program with gradle and azure
+
+Java Hello World from https://spring.io/guides/gs/gradle/
+
+

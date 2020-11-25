@@ -29,7 +29,7 @@ public class Greeter {
     }
     else
     {
-       return "Hello000 " + name + "!";
+       return "Hello " + name + "!";
     }
   
   }

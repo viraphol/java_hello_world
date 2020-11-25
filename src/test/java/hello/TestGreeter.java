@@ -38,8 +38,8 @@ public class TestGreeter {
    @Test
    public void oneMoreTest() {
        g.setName("Dingo Berry");
-       assertEquals(g.getName(),"Boris");
-       assertEquals(g.sayHello(),"Hello Dingo!");
+       assertEquals(g.getName(),"Dingo Berry");
+       assertEquals(g.sayHello(),"Hello Dingo Berry!");
    }
    /*
    @Test

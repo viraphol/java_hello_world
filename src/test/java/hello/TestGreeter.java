@@ -34,6 +34,13 @@ public class TestGreeter {
        assertEquals(g.getName(),"Boris");
        assertEquals(g.sayHello(),"Hello Boris!");
    }
+
+   @Test
+   public void oneMoreTest() {
+       g.setName("Dingo Berry");
+       assertEquals(g.getName(),"Boris");
+       assertEquals(g.sayHello(),"Hello Dingo!");
+   }
    /*
    @Test
    public void newtestWMGreeterFail() {

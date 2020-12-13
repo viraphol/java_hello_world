@@ -19,4 +19,8 @@ repositories {
 dependencies {
     testImplementation 'junit:junit:4.13' 
     implementation 'joda-time:joda-time:2.9.7'
+
+    compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.10.3'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.3'
+
 }
